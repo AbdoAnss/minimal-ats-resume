@@ -1,0 +1,35 @@
+\documentclass{style}
+
+\begin{document}
+
+% Header
+\input{data/header.tex}%
+\headerdivider%
+% Two-column body
+\noindent%
+\begin{minipage}[t]{58.5mm}%
+    \vspace{0pt}%
+    \fontsize{8.8pt}{12.4pt}\selectfont\color{textdark}%
+    \raggedright%
+    \input{data/contact.tex}\par%
+    \input{data/skills.tex}\par%
+    \input{data/education.tex}\par%
+    \input{data/hobbies.tex}\par%
+\end{minipage}\hspace{10.4mm}%
+\begin{minipage}[t]{114.7mm}%
+    \vspace{0pt}%
+    \fontsize{8.8pt}{12.2pt}\selectfont\color{textdark}%
+    \raggedright%
+    \input{data/summary.tex}\par%
+    
+    \vspace{10.0pt}%
+    \input{data/experience.tex}\par%
+    
+    \vspace{10.0pt}%
+    \input{data/projects.tex}\par%
+    
+    \vspace{10.0pt}%
+    \input{data/certifications.tex}\par%
+\end{minipage}
+
+\end{document}
