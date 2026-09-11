@@ -60,7 +60,7 @@
     \begin{tikzpicture}[remember picture, overlay]
         \draw[draw=subrulecolor, line width=0.65pt] 
             ([xshift=76.5mm, yshift=-36.0mm]current page.north west) -- 
-            ([xshift=76.5mm, yshift=-262.0mm]current page.north west);
+            ([xshift=76.5mm, yshift=-274.0mm]current page.north west);
     \end{tikzpicture}\par
     \vspace{14.0pt}%
 }
@@ -72,9 +72,9 @@
 
 % Left column short horizontal divider (32mm long, matching reference x=44 to x=153)
 \newcommand{\resumedivider}{%
-    \vspace{6.0pt}%
+    \vspace{8.0pt}%
     \noindent{\color{subrulecolor}\rule{32mm}{0.65pt}}\par
-    \vspace{11.0pt}%
+    \vspace{14.0pt}%
 }
 
 % Bullet list for Skills
@@ -122,5 +122,7 @@
 
 % Certification item
 \newcommand{\certificationitem}[2]{%
-    {\fontsize{8.8pt}{11.5pt}\selectfont\bfseries\color{textdark}#1} \hfill {\fontsize{8.5pt}{11.0pt}\selectfont\color{textgray}#2}\par
+    {\fontsize{8.8pt}{11.5pt}\selectfont\bfseries\color{textdark}#1}\par
+    \vspace{2.5pt}%
+    {\fontsize{8.5pt}{11.0pt}\selectfont\color{textgray}#2}\par
 }
